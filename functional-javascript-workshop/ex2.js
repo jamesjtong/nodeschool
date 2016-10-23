@@ -6,12 +6,12 @@ function repeat(operation, num) {
   }
 }
 
-function repeat(operation, num) {
-  //non-recursive
-  for (var i=0; i < num; i++) {
-    operation();
-  }
-}
+//function repeat(operation, num) {
+//  //non-recursive
+//  for (var i=0; i < num; i++) {
+//    operation();
+//  }
+//}
 module.exports = repeat
 
 
